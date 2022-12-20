@@ -31,7 +31,7 @@ public class discordbot {
 
 
 //main method
-        JDA jda = JDABuilder.createDefault(process.env.Token)
+        JDA jda = JDABuilder.createDefault(process.env.TOKEN)
                 .enableIntents(GatewayIntent.MESSAGE_CONTENT)
                 .enableIntents(GatewayIntent.GUILD_MEMBERS)
                 .enableIntents(GatewayIntent.GUILD_PRESENCES)
